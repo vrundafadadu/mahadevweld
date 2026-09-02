@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c2410c"/>
+      <stop offset="50%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="coreGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bgGrad)" stroke="#ea580c" stroke-width="1.5"/>
+  <path d="M32 10 C32 10 39 19 39 26 C39 29 37.5 32 35 34 C36.5 31.5 36.8 28.5 35.5 26.5 C34 24 30.5 22.5 31 18 C26.5 21.5 24 26 24 31 C24 32.5 24.3 34 25 35.3 C23.8 33.8 23.2 31.8 23.5 29.5 C20.5 33 19 37.5 19 42 C19 49.2 24.8 55 32 55 C39.2 55 45 49.2 45 42 C45 32 38 21 32 10 Z" fill="url(#flameGrad)"/>
+  <path d="M32 30 C32 30 35.5 35 35.5 39 C35.5 43 32 46.5 32 50 C32 46.5 28.5 43 28.5 39 C28.5 35 32 30 32 30 Z" fill="url(#coreGrad)" opacity="0.9"/>
+</svg>
