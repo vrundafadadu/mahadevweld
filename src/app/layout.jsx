@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 export const metadata = {
+  metadataBase: new URL('https://www.mahadevweld.com'),
   title: 'Mahadev Weld | Heavy Industrial Fabrication, Demolition & Toll Plazas',
   description: 'Mahadev Weld is Rajasthan’s premier structural engineering and demolition company specializing in Toll Plaza dismantling, PEB industrial sheds, geodesic domes, and heavy metal fabrication.',
   keywords: 'Mahadev Weld, Toll Plaza Demolition, PEB Sheds, Dome Fabrication, Industrial Welding, Pali, Rajasthan, Falna, Bali, Khudala',
@@ -13,7 +14,7 @@ export const metadata = {
   openGraph: {
     title: 'Mahadev Weld — Industrial Fabrication & Demolition Works',
     description: 'Specializing in Toll Plaza dismantling, industrial PEB sheds, geodesic domes, and heavy metal fabrication in Rajasthan.',
-    url: 'https://mahadevweld.com',
+    url: 'https://www.mahadevweld.com',
     siteName: 'Mahadev Weld',
     type: 'website',
   },
