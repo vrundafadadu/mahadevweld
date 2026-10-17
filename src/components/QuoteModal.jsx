@@ -20,19 +20,7 @@ export default function QuoteModal({ isOpen, onClose }) {
 
   const currentServObj = SERVICES_LIST.find(s => s.id === selectedService) || SERVICES_LIST[0];
 
-  const sizeNum = parseFloat(areaSize) || 1000;
-  let estimatedPriceRange = "Contact for Site Inspection";
-  if (selectedService === 'structural-shed-fabrication') {
-    estimatedPriceRange = `₹${(sizeNum * 140).toLocaleString('en-IN')} – ₹${(sizeNum * 180).toLocaleString('en-IN')}`;
-  } else if (selectedService === 'demolition-work') {
-    estimatedPriceRange = `₹${(sizeNum * 45).toLocaleString('en-IN')} – ₹${(sizeNum * 70).toLocaleString('en-IN')}`;
-  } else if (selectedService === 'dome-fabrication') {
-    estimatedPriceRange = `₹${(sizeNum * 220).toLocaleString('en-IN')} – ₹${(sizeNum * 320).toLocaleString('en-IN')}`;
-  } else if (selectedService === 'toll-plaza-work') {
-    estimatedPriceRange = `Custom Turnkey Scope (Fast-Track Highway Dispatch)`;
-  } else {
-    estimatedPriceRange = `₹${(sizeNum * 120).toLocaleString('en-IN')} – ₹${(sizeNum * 160).toLocaleString('en-IN')}`;
-  }
+  const estimatedPriceRange = "Custom Quote Requested (Site Inspection)";
 
   const handleSubmitForm = async (e) => {
     e.preventDefault();
@@ -214,30 +202,6 @@ export default function QuoteModal({ isOpen, onClose }) {
                 </div>
               </div>
 
-              {/* Instant Estimation Highlight Box */}
-              <div style={{
-                backgroundColor: '#fff7ed',
-                border: '1px solid #ffedd5',
-                borderRadius: '10px',
-                padding: '1rem 1.2rem',
-                display: 'flex',
-                justifyContent: 'space-between',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-                gap: '0.5rem'
-              }}>
-                <div>
-                  <span style={{ fontSize: '0.8rem', color: '#c2410c', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 700 }}>
-                    Estimated Budget Range (Approx)
-                  </span>
-                  <div style={{ fontSize: '1.4rem', fontWeight: 700, color: '#0f172a', fontFamily: 'var(--font-heading)' }}>
-                    {estimatedPriceRange}
-                  </div>
-                </div>
-                <span style={{ fontSize: '0.75rem', color: '#64748b', maxWidth: '200px', textAlign: 'right' }}>
-                  * Final quote subject to physical site inspection
-                </span>
-              </div>
 
               {/* Contact Inputs */}
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>

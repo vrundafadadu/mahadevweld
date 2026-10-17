@@ -6,15 +6,28 @@ import Footer from '../components/Footer';
 
 export const metadata = {
   metadataBase: new URL('https://www.mahadevweld.com'),
-  title: 'Mahadev Weld | Heavy Industrial Fabrication, Demolition & Toll Plazas',
-  description: 'Mahadev Weld is Rajasthan’s premier structural engineering and demolition company specializing in Toll Plaza dismantling, PEB industrial sheds, geodesic domes, and heavy metal fabrication.',
-  keywords: 'Mahadev Weld, Toll Plaza Demolition, PEB Sheds, Dome Fabrication, Industrial Welding, Pali, Rajasthan, Falna, Bali, Khudala',
+  title: 'Fabrication & Demolition Contractor Rajasthan | Mahadev Weld',
+  description: 'Mahadev Weld is a fabrication and demolition contractor in Rajasthan. Toll plaza demolition, PEB sheds, steel dismantling and domes. Get a quote today.',
+  keywords: [
+    'fabrication and demolition contractor in Rajasthan',
+    'toll plaza demolition contractor',
+    'PEB shed manufacturer in Rajasthan',
+    'industrial shed fabrication',
+    'geodesic dome manufacturer in India',
+    'steel fabrication company',
+    'steel structure dismantling contractor',
+    'structural steel fabrication',
+    'heavy industrial fabrication',
+    'industrial welding services',
+    'on-site welding service',
+    'steel dome fabrication',
+  ],
   icons: {
     icon: '/favicon.svg',
   },
   openGraph: {
-    title: 'Mahadev Weld — Industrial Fabrication & Demolition Works',
-    description: 'Specializing in Toll Plaza dismantling, industrial PEB sheds, geodesic domes, and heavy metal fabrication in Rajasthan.',
+    title: 'Fabrication & Demolition Contractor Rajasthan | Mahadev Weld',
+    description: 'Mahadev Weld is a fabrication and demolition contractor in Rajasthan. Toll plaza demolition, PEB sheds, steel dismantling and domes. Get a quote today.',
     url: 'https://www.mahadevweld.com',
     siteName: 'Mahadev Weld',
     type: 'website',
